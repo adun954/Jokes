@@ -1,4 +1,4 @@
-const jokesController = require("../controllers/jokes.controller");
+const jokesController = require("../controllers/jokes.controllers");
 
 module.exports = app => {
   app.get("/api/jokes/", jokesController.findAllJokes);
